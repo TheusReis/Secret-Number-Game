@@ -21,7 +21,7 @@ function gerarNumeroAleatorio() {
 
 function mensagemInicial() {
   mostrarNaTela('h1', 'Jogo do número secreto');
-  mostrarNaTela('p', 'Tente adivinhar o número secreto entre 0 e 10');
+  mostrarNaTela('p', 'Tente adivinhar o número secreto entre 0 e 100');
 }
 
 function mostrarNaTela(tag, texto) {
